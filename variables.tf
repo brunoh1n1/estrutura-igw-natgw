@@ -1,0 +1,9 @@
+variable "ami_id" {
+	default =  "ami-00c39f71452c08778"
+}
+variable "key" {
+	default = {
+		name ="aula_gabi"
+		value = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCy2mGuD7aHnBFSBinA3L4m0z9sr464tOYVghxGFwLaEX0WSGSKR/QsAfytVe+nNi4gWx58DXDhD9O69ieZttNhnfb04GcZPCYb+pyhlKM8RwYSw7RQHIhkP8MqjUkfRo3PZI6LGZGsbFV3Uh1eerNqS9IIrDto6C/N3IPkqQVd9kfSKgtvcjYv1DUUdkLHs7YffXyvf3Jj8R7CxdM5Z9EV6s+mam1F6Uytu+6TPDWCPwZ3p5k/PmkdwV4jgiSSN4bhD4tr8OqFmbyUFYs4vp2QdLPUZE31aPc1SExPHCEeFxBwDi6j7RUcVfht2N62Z3Qpa1k6HhMpELcGe1HLFoQX9v4qdWvBFmnBrTyMRAg3QivWXxleC3Gzb0sFacJeS3aXed/vU2yv+bIizbycp3wv4o8Tq+D+UnWNcLUJhr4K3iF6zMXdtAxafuFvuWvo2nf0gEgPCnBlDC0h/IIoWQ8bIfXGsvjhGzbAKMtfOWofFmmXYrVvn+IqhBK/XN67DqE="
+	}
+}
