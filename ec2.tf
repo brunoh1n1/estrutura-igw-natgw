@@ -28,3 +28,8 @@ resource "aws_key_pair" "aula" {
   key_name   = lookup(var.key, "name")
   public_key = lookup(var.key, "value")
 }
+
+resource "aws_key_pair" "aula_gabi2" {
+  key_name   = lookup(var.key_gabi2, "name")
+  public_key = lookup(var.key_gabi2, "value")
+}

@@ -3,8 +3,14 @@ resource "aws_security_group" "internet_sg" {
   vpc_id = aws_vpc.vpc_internet_gateway.id
 
   ingress {
-    from_port   = 22
-    to_port     = 22
+    from_port   = 5300
+    to_port     = 5300
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  ingress {
+    from_port   = 80
+    to_port     = 80
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
